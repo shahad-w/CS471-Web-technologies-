@@ -30,8 +30,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    
-    'apps.shahadapp',
+
+    'apps.bookmodule',
+    'apps.usermodule',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
